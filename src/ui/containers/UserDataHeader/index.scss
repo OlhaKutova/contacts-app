@@ -1,0 +1,28 @@
+@import "../../../utils/constants/styles/colors";
+
+.ant-dropdown-link {
+  color: $gray;
+  font-size: 15px;
+
+  &:hover {
+    color: $dodgerBlueLight;
+  }
+
+  & > .anticon.anticon-down,
+  .ant-dropdown-button > .anticon.anticon-down {
+    margin-left: 5px;
+    font-size: 18px;
+    height: 21px;
+    vertical-align: middle;
+  }
+
+  img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+  }
+}
+
+
+

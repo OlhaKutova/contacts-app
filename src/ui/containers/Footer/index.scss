@@ -1,0 +1,13 @@
+@import '../../../utils/constants/styles/colors';
+
+.footer-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background-color: $seashell;
+  p {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.65);
+  }
+}

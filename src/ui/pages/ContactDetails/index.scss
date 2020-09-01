@@ -1,0 +1,11 @@
+.empty-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background: url("../../../img/main-background.jpg") no-repeat center;
+  background-size: cover;
+  p {
+    font-size: 40px;
+  }
+}

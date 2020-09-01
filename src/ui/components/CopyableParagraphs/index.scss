@@ -1,0 +1,10 @@
+.paragraph-wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.ant-typography-copy {
+  margin-right: 5px;
+}

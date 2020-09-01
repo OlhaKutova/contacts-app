@@ -1,0 +1,13 @@
+@import '../../../utils/constants/styles/colors';
+
+.ant-btn-circle, .ant-btn-circle-outline {
+  margin-right: 10px;
+}
+
+.data-view-btn-active {
+  background-color: $dodgerBlueDark !important;
+
+  svg {
+    fill: $white;
+  }
+}

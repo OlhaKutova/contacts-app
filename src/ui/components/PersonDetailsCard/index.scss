@@ -1,0 +1,70 @@
+@import '../../../utils/constants/styles/colors';
+
+.profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 30px 0;
+  background: url("../../../img/main-background.jpg") no-repeat center;
+  background-size: cover;
+
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .inner-wrapper {
+    display: flex;
+    margin-top: 15px;
+
+    .card-container {
+      display: flex;
+
+      .user-avatar-wrapper {
+        margin-right: 20px;
+        img {
+          width: 260px;
+          height: 260px;
+        }
+      }
+    }
+
+    .user-info-wrapper {
+      .title-wrapper {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px dashed $alto;
+        p {
+          margin: 0;
+          padding-bottom: 7px;
+        }
+        .title-name {
+          font-size: 24px;
+          font-weight: bolder;
+          color: rgba(0,0,0,.85);
+        }
+        .title-years {
+          color: rgba(0,0,0,.45);
+          font-size: 18px;
+          font-weight: bolder;
+          margin: 0 7px;
+        }
+      }
+      .details-wrapper {
+        border-bottom: 1px dashed $alto;
+
+        .paragraph-wrapper {
+          margin: 7px 0;
+        }
+      }
+      .title-nationality {
+        margin: 10px 0;
+      }
+
+    }
+  }
+  .back-button {
+    margin-top: 30px;
+  }
+}

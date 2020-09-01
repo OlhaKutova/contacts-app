@@ -1,0 +1,17 @@
+.contacts-wrapper {
+  flex: 1;
+  padding: 20px 50px;
+  background: url("../../../img/main-background.jpg") no-repeat center;
+  background-size: cover;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 500;
+  }
+
+  .buttons-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+}

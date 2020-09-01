@@ -1,0 +1,29 @@
+@import "../../../utils/constants/styles/colors";
+
+
+.header-dropdown-wrapper {
+  span {
+    padding: 7px 0;
+  }
+}
+
+.ant-dropdown-menu-item:hover {
+  background-color: transparent;
+  color: $dodgerBlueLight;
+}
+
+.ant-dropdown-menu-item {
+  .profile-link {
+    &:hover {
+      color: $dodgerBlueLight;
+    }
+
+    & .title {
+      margin-left: 7px;
+    }
+  }
+}
+
+.profile-link-item {
+  border-bottom: 1px solid $alto;
+}

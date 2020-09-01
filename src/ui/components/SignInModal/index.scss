@@ -1,0 +1,16 @@
+@import "../../../utils/constants/styles/colors";
+
+.header-sign-in-wrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: $dodgerBlueDark;
+  &:hover {
+    cursor: pointer;
+    color: $dodgerBlueLight;
+  }
+  .icon {
+    margin-right: 8px;
+  }
+}

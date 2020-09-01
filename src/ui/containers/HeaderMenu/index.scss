@@ -1,0 +1,41 @@
+@import '../../../utils/constants/styles/colors';
+
+.header-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  background: $white;
+
+  .ant-menu-horizontal {
+    display: flex;
+    align-items: center;
+    line-height: 1;
+    border: none;
+    color: rgba(0,0,0,.65);
+
+    .ant-menu-item:hover,
+    .ant-menu-item-only-child,
+    .ant-menu-item-selected
+    {
+      border: none;
+    }
+
+    .logo {
+      margin: 0;
+    }
+    img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+}
+
+.ant-menu-horizontal > .ant-menu-item a {
+  color: rgba(0,0,0,.65);
+}
+
+.ant-menu-horizontal > .ant-menu-item-selected a {
+  color: $dodgerBlueDark;
+}

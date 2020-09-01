@@ -1,0 +1,22 @@
+.page-not-found-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  background: url("../../../img/main-background.jpg") no-repeat center;
+  background-size: cover;
+
+  img {
+    width: 800px;
+    height: 600px;
+  }
+}
+
+@media only screen and (max-width: 925px) {
+  .page-not-found-wrapper {
+    img {
+      width: 300px;
+      height: 300px;
+    }
+  }
+}
