@@ -1,17 +1,17 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 import { useHistory } from "react-router";
 import { Formik, Field, Form } from "formik";
 
-import { useDispatch } from "react-redux";
 import { signIn } from "../../../redux/actionCreators/signIn";
 import { AntInput, AntInputPassword } from "../FormFields/createFormField";
 import {
   validateEmail,
   validatePassword
 } from "../FormFields/validateFormField";
-import "./index.scss";
 import { Button } from "antd";
 import { CloseOutlined } from "@ant-design/icons";
+import "./index.scss";
 
 const SignInForm = ({ setIsVisible }) => {
   const dispatch = useDispatch();

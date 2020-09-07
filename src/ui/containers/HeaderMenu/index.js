@@ -1,7 +1,5 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import "antd/dist/antd.css";
-import "antd/dist/antd.css";
 import { Menu } from "antd";
 
 import "./index.scss";

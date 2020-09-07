@@ -1,13 +1,12 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import { useHistory } from "react-router";
-import "antd/dist/antd.css";
 import { List } from "antd";
 
-import "./index.scss";
 import StatisticData from "../StatisticData";
-import { useSelector } from "react-redux";
 import { savePaginationTiledData } from "../../../utils/helpers/saveDataLS";
 import TiledContactCard from "./TiledContactCard";
+import "./index.scss";
 
 const TiledContactsData = ({ contactList, contactSummary }) => {
   const { paginationTiledData } = useSelector(state => state.contactList);

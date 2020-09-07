@@ -1,7 +1,7 @@
 import React from "react";
+import { Spin } from "antd";
 
 import "./index.scss";
-import { Spin } from "antd";
 
 const StatisticData = ({ contactSummary }) => {
   let predominateGender = "";

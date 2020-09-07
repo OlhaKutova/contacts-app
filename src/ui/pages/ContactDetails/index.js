@@ -1,10 +1,10 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { useSelector } from "react-redux";
+import { Spin } from "antd";
 
 import PersonDetailsCard from "../../components/PersonDetailsCard";
 import "./index.scss";
-import { Spin } from "antd";
 
 const ContactDetails = () => {
   const { contactId } = useParams();

@@ -1,10 +1,11 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 import { Link, useHistory } from "react-router-dom";
-import "antd/dist/antd.css";
 import { Menu } from "antd";
+
 import { UserOutlined, LogoutOutlined } from "@ant-design/icons";
 import "./index.scss";
-import { useDispatch } from "react-redux";
+
 import { logOut } from "../../../redux/actionCreators/signIn";
 
 const UserDataHeaderMenu = () => {

@@ -1,12 +1,13 @@
 import React from "react";
-import "antd/dist/antd.css";
+import { useDispatch, useSelector } from "react-redux";
 import { Table } from "antd";
 
 import columns from "./TableElements/columns";
-import "./index.scss";
 import StatisticData from "../StatisticData";
 import types from "../../../redux/actionTypes";
-import { useDispatch, useSelector } from "react-redux";
+import "antd/dist/antd.css";
+import "./index.scss";
+
 import { savePaginationData } from "../../../utils/helpers/saveDataLS";
 
 const TabularContactsData = ({ contactList, contactSummary, loading }) => {

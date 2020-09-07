@@ -8,9 +8,9 @@ import {
   CopyableLocation,
   CopyablePhone
 } from "../CopyableParagraphs";
-import "./index.scss";
 import { getRandomItem } from "../../../utils/helpers";
 import { tagColors } from "../../../utils/constants";
+import "./index.scss";
 
 const PersonDetailsCard = ({ title, contactData }) => {
   const history = useHistory();

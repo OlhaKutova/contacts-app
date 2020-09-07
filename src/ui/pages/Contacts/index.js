@@ -1,6 +1,5 @@
 import React from "react";
 import { useSelector } from "react-redux";
-import "antd/dist/antd.css";
 import { Spin, Row, Col } from "antd";
 
 import FilterContactsSection from "../../containers/FilterContactsSection";

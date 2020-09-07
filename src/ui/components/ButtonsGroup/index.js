@@ -7,12 +7,11 @@ import {
   LoadingOutlined
 } from "@ant-design/icons";
 
-import "./index.scss";
-
 import {
   getContactList,
   setDataView
 } from "../../../redux/actionCreators/getContactList";
+import "./index.scss";
 
 const ButtonsGroup = ({ dataView }) => {
   const dispatch = useDispatch();

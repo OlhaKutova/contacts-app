@@ -1,12 +1,12 @@
 import React, { useState, useCallback, useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import "antd/dist/antd.css";
 import { Input, Button, Select, Checkbox } from "antd";
 import { CloseOutlined } from "@ant-design/icons";
-import "./index.scss";
+
 import { getContactList } from "../../../redux/actionCreators/getContactList";
 import nationalities from "../../../utils/helpers/nationalities";
 import { saveFilterData } from "../../../utils/helpers/saveDataLS";
+import "./index.scss";
 
 const { Search } = Input;
 const { Option } = Select;

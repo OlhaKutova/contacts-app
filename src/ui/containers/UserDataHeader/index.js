@@ -1,5 +1,4 @@
 import React from "react";
-import "antd/dist/antd.css";
 import { Dropdown } from "antd";
 import { DownOutlined } from "@ant-design/icons";
 

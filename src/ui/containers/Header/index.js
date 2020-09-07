@@ -1,12 +1,10 @@
 import React from "react";
-import "antd/dist/antd.css";
 import { Row, Col } from "antd";
-import "antd/dist/antd.css";
 
-import "./index.scss";
 import HeaderMenu from "../HeaderMenu";
 import SignInModal from "../../components/SignInModal";
 import UserDataHeader from "../UserDataHeader";
+import "./index.scss";
 
 const Header = ({ userData }) => {
   return (

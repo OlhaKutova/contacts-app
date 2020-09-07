@@ -1,8 +1,8 @@
 import React from "react";
 
-import "./index.scss";
 import { useSelector } from "react-redux";
 import PersonDetailsCard from "../../components/PersonDetailsCard";
+import "./index.scss";
 
 const Profile = () => {
   const { userData } = useSelector(state => state.signIn);
