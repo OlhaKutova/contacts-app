@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu } from "antd";
 
+import "antd/dist/antd.css";
 import "./index.scss";
 
 const HeaderMenu = ({ isLoggedIn }) => {

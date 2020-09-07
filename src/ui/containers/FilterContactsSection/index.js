@@ -6,6 +6,7 @@ import { CloseOutlined } from "@ant-design/icons";
 import { getContactList } from "../../../redux/actionCreators/getContactList";
 import nationalities from "../../../utils/helpers/nationalities";
 import { saveFilterData } from "../../../utils/helpers/saveDataLS";
+import "antd/dist/antd.css";
 import "./index.scss";
 
 const { Search } = Input;
