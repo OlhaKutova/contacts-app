@@ -10,6 +10,7 @@ export const CopyableEmail = ({ email, className }) => {
   return (
     <Paragraph
       copyable={{
+        text: email,
         icon: <CopyOutlined key="copy-icon" />,
         tooltips: ["Copy", "Copied"]
       }}
@@ -24,6 +25,7 @@ export const CopyablePhone = ({ phone, className }) => {
   return (
     <Paragraph
       copyable={{
+        text: phone,
         icon: <CopyOutlined key="copy-icon" />,
         tooltips: ["Copy", "Copied"]
       }}
@@ -39,6 +41,7 @@ export const CopyableLocation = ({ location, className }) => {
   return (
     <Paragraph
       copyable={{
+        text: `/${country}/ ${street.number} ${street.name}, ${city}, ${state} ${postcode} `,
         icon: <CopyOutlined key="copy-icon" />,
         tooltips: ["Copy", "Copied"]
       }}
